@@ -1,0 +1,54 @@
+Document object:
+The Document object, often referred to as the DOM (Document Object Model), 
+represents the entire HTML document loaded in a web browser.It allows JavaScript to access and manipulate the content of a web page.
+DOM is basically the representation of the same HTML document but in a different format with the use of objects. 
+Javascript interprets DOM easily javascript can not understand the tags(<h1>H</h1>) in HTML document but can understand object h1 in DOM.
+
+document structure:
+The Document object represents a hierarchical structure of the HTML elements in a web page. 
+It starts with the document object, which has child nodes representing elements like <html>, <head>, and <body>.
+
+Methods for Element Selection: 
+The Document object provides methods like getElementById(), getElementsByClassName(), 
+and getElementsByTagName() to select specific elements from the page.
+
+Events Handling: 
+You can use the Document object to attach event handlers to elements, 
+allowing you to respond to user interactions such as clicks, keyboard input, and form submissions.
+
+Properties: 
+It offers properties like document.title to get or set the title of the page and document.
+URL to access the URL of the current page.
+
+Window object:
+The window object is the topmost object of the DOM hierarchy. 
+It represents a browser window or frame that displays the contents of the webpage. 
+Whenever a window appears on the screen to display the contents of the document, the window object is created. 
+
+Global Scope: 
+The Window object serves as the global scope for JavaScript in a web page. 
+Any variables or functions declared without the var, let, or const keyword are automatically attached to the Window object and can be accessed globally.
+
+Alerts and Dialogs: 
+Functions like alert(), confirm(), and prompt() are part of the Window object, allowing you to interact with users via dialogs.
+
+Timers: 
+It provides methods like setTimeout() and setInterval() to execute functions at specified intervals or after a delay.
+
+Differences Between Document and Window Objects
+
+Scope: 
+The Document object is limited to the content of the HTML document, 
+while the Window object provides a broader scope, encompassing the entire browser window.
+
+Hierarchy: 
+The Document object represents the hierarchical structure of the HTML, 
+while the Window object doesn't have this structure and serves as a global context.
+
+Content vs. Browser Control: 
+The Document object primarily deals with content manipulation, 
+while the Window object is responsible for browser-related operations and interactions.
+
+Manipulation vs. Control: 
+The Document object is used to manipulate HTML elements and content, 
+whereas the Window object is used to control the browser's behavior.
